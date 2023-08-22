@@ -1,0 +1,6 @@
+// 為甚麼在這裡寫就可以? 直接在 .navbar .container .div 寫上 w-100 登入註冊 按鈕會分成兩行?
+.navbar{
+  .container > div{
+    width: 100%;
+  }
+}

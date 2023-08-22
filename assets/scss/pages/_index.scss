@@ -1,0 +1,76 @@
+
+.banner{
+  background-image: url('https://s3-alpha-sig.figma.com/img/5289/d9c4/63ad863a1ce0bff54649340224bf6990?Expires=1693180800&Signature=je8ELR1j6LVh16V9UquG3VfYzF7fENGOzuH8OkvBOMR7kjzBESzjqbpfdF7FUX0BKvxagVKYYmc8DWTvSpakutJvbzXLAPDLA65IMfBXSyEzPd0Qm-XdA~VOH0WmrKQEZdbl~nbgDr3iTU7FI1b3f-XZljUQ654YwqeN-CLdjjtNW3zbVdee02GpEwB7SBpUI6~uPmPeLnT2eWRGUXQW~DBtC5NP5uzwbyA7epzLfGkgH~Mnboil1WwkJLJKQxIsx4hiM4UI6raSTJZwaSb4A216b9ZBdWdVONvSUOklIaNcoK8FJncFndn~i4~oH4zQcW2Og2gsp4rqTvz5b04TTQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+  background-position: center; 
+  background-size: cover;
+}
+.category{
+  img{
+    width: 40px;
+  }
+}
+.recent{
+  .card-body{
+    img{
+      height: 255px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .card-footer a:nth-child(2){
+    position: relative;
+    &:hover {
+      &::before{
+        content: "";
+        background: #FBFF22;
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+        position: absolute;
+        left: -10px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.events{
+  img{
+    width: 100%;
+    height: 267px;
+    object-fit: cover;
+  }
+}
+
+.online > div >  img{
+    height: 200px; 
+    object-fit: cover;
+}
+
+.search{
+  width: 207px;
+}
+
+// 電腦
+@media (min-width: 992px) {
+  .search{
+    width: 335px;
+  }
+  .category{
+    img{
+      width: 80px;
+    }
+  }
+  
+  .online > div > img{
+      height: 317px; 
+  }
+  .events{
+    img{
+      height: 274px;
+    }
+  }
+  .subscribe .card{
+    border-left: none;
+  }
+}

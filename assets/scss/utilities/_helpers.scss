@@ -1,0 +1,90 @@
+// 字體大小
+.fs-lg-60-sm-32{
+    font-size: 32px;
+  }
+  
+  .fs-lg-24-sm-18{
+    font-size: 18px;
+  }
+  .fs-lg-24-sm-16{
+    font-size: 16px;
+  }
+  
+  .fs-lg-48-sm-24{
+    font-size: 24px;
+  }
+  .fs-lg-64-sm-24{
+    font-size: 24px;
+  }
+  .fs-lg-32-sm-16{
+    font-size: 16px;
+  }
+  .fs-lg-48-sm-32{
+    font-size: 32px;
+  }
+  .fs-lg-32-sm-18{
+    font-size: 18px;
+  }
+  .fs-lg-20-sm-16{
+    font-size: 16px;
+  }
+  .fs-lg-32-sm-24{
+    font-size: 24px;
+  }
+  .fs-lg-18-sm-14{
+    font-size: 14px;
+  }
+  .fs-lg-16-sm-14{
+    font-size: 14px;
+  }
+
+  .rotate-4deg{
+    transform: translateX(-50%) translateY(-50%) rotate(-4deg);
+  }
+  
+.btn:hover{
+    color: $primary;
+  }
+  
+.text-nowrap{
+    white-space: nowrap;
+  }
+  // 電腦
+@media (min-width: 992px) {
+    .fs-lg-60-sm-32{
+        font-size: 60px;
+    }
+    .fs-lg-24-sm-18{
+        font-size: 24px;
+    }
+    .fs-lg-24-sm-16{
+        font-size: 24px;
+    }
+    .fs-lg-48-sm-24{
+        font-size: 48px;
+    }
+    .fs-lg-64-sm-24{
+        font-size: 64px;
+    }
+    .fs-lg-32-sm-16{
+        font-size: 32px;
+    }
+    .fs-lg-48-sm-32{
+        font-size: 48px;
+    }
+    .fs-lg-32-sm-18{
+        font-size: 32px;
+    }
+    .fs-lg-20-sm-16{
+        font-size: 20px;
+    }
+    .fs-lg-32-sm-24{
+        font-size: 32px;
+    }
+    .fs-lg-18-sm-14{
+        font-size: 18px;
+    }
+    .fs-lg-16-sm-14{
+        font-size: 16px;
+    }
+}

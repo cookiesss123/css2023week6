@@ -1,0 +1,14 @@
+@import "bootstrap/scss/functions";
+@import "./utilities/variables";
+@import "bootstrap/scss/bootstrap";
+
+@import './base/base';
+@import './base/fontStyle';
+@import "./utilities/helpers";
+
+@import './layout/header.scss';
+
+@import './pages/index.scss';
+@import './pages/events.scss';
+
+@import 'icofont/dist/icofont.min.css'
