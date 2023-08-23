@@ -1,11 +1,40 @@
 .tags{
   li{
     margin-bottom: 8px;
+
+    // 方法一
     box-shadow: -4px 0 0 $secondary;
+
     &:hover{
       background: $secondary;
+      // 方法一
       box-shadow: -4px 0 0 $primary;
+
+      // 方法二
+      // &::before{
+      //   content: "";
+      //   display: inline-block;
+      //   background: $primary;
+      //   width: 4px;
+      //   height: 32px; // 100% 為甚麼不行? 100% 是以什麼為依據 我以為是 li標籤 目前高度 如果放很大會凸出去 要怎麼做才能讓放大時高度一樣
+      //   position: absolute;
+      //   left: -4px;
+      // }
     }
+    
+    // 方法二
+    // position: relative;
+
+    // &::before{
+    //   content: "";
+    //   display: inline-block;
+    //   background: $secondary;
+    //   width: 4px;
+    //   height: 32px; // 100% 為甚麼不行? 100% 是以什麼為依據 如果放很大會凸出去 要怎麼做才能讓放大時高度一樣
+    //   position: absolute;
+    //   left: -4px;
+    // }
+
   }
   
   a{
